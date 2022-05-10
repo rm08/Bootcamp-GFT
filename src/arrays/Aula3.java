@@ -1,6 +1,10 @@
 package arrays;
 
 import java.util.Random;
+<<<<<<< HEAD
+=======
+import java.util.Scanner;
+>>>>>>> 43bbbcab174211ba53ba6cf14b0ce422cd81ec3e
 
 public class Aula3 {
 
@@ -20,7 +24,11 @@ public class Aula3 {
 		}
 		
 		System.out.println();
+<<<<<<< HEAD
 		System.out.println("Sucessores dos Numeros Aleatorios: ");
+=======
+		System.out.print("Sucessores dos Numeros Aleatorios: ");
+>>>>>>> 43bbbcab174211ba53ba6cf14b0ce422cd81ec3e
 		for(int numero : numerosAleatorios) {
 			System.out.print((numero+1) + " ");
 		}
