@@ -1,4 +1,4 @@
-package exercicios;
+package metodos.Aula1;
 
 public class Emprestimo {
 	public static int getDuasParcelas() {
