@@ -1,12 +1,6 @@
 package collections.map;
 
-/*Dadas as seguintes informações sobre meus livros favoritos e seus autores,
-crie um dicionário e ordene este dicionário:
-exibindo (Nome Autor - Nome Livro);
-Autor = Hawking, Stephen  - Livro = nome: Uma Breve História do Tempo. páginas: 256
-Autor = Duhigg, Charles - Livro = nome: O Poder do Hábito, paginas: 408
-Autor = Harari, Yuval Noah  - Livro = 21 Lições Para o Século 21, páginas: 432
-*/
+
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -101,4 +95,4 @@ class ComparatorNome implements Comparator<Map.Entry<String, Livro>>{
         return l1.getValue().getNome().compareToIgnoreCase(l2.getValue().getNome());
     }
 }
-}
+
